@@ -1,6 +1,6 @@
 {
   "name": "x-tag-route",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A X-Tag element for URL routing",
   "author": "Gianni Furger",
   "license": "MIT",

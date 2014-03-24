@@ -22,29 +22,29 @@ $ bower install --save x-tag-route
 
 ## Usage
 
-1. Import Web Components' polyfill:
+1.  Import Web Components' polyfill:
 
-```html
-<script src="dist/x-tags-components.js"></script>
-```
+      ```html
+      <script src="dist/x-tags-components.js"></script>
+      ```
 
-2. Import `<flatiron-director>`:
+2.  Import `<flatiron-director>`:
 
-```html
-<script src="dist/director.min.js"></script>
-```
+    ```html
+    <script src="dist/director.min.js"></script>
+    ```
 
-3. Import Custom Element:
+3.  Import Custom Element:
 
-```html
-<script src="dist/route.js"></script>
-```
+    ```html
+    <script src="dist/route.js"></script>
+    ```
 
-4. Start using it!
+4.  Start using it!
 
-```html
-<x-route></x-route>
-```
+    ```html
+    <x-route></x-route>
+    ```
 
 ## Examples
 
@@ -118,3 +118,4 @@ For detailed changelog, check [Releases](https://github.com/webcomponents/elemen
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
+
