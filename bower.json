@@ -1,0 +1,28 @@
+{
+  "name": "x-tag-route",
+  "version": "0.1.0",
+  "description": "A X-Tag element for URL routing",
+  "author": "Gianni Furger",
+  "license": "MIT",
+  "main": [
+    "src/route.js"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "router",
+    "routing"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "x-tag-core": "*",
+    "brick-common": "*"
+  }
+}
