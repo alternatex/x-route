@@ -1,7 +1,7 @@
 {
   "name": "Route",
   "tagName": "x-tag-route",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "author": "Gianni Furger",
   "description": "A X-Tag element for URL routing",
   "demo": "index.html",
