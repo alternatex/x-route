@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "x-tag-core": "*",
-    "brick-common": "*"
+    "x-tag-core": "0.9.4",
+    "brick-common": "0.1.2"
   }
 }
