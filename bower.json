@@ -1,18 +1,18 @@
 {
-  "name": "x-route",
-  "version": "0.0.1",
-  "authors": [
-    "Addy Osmani <addyosmani@gmail.com>"
+  "name": "x-tag-route",
+  "version": "0.2.0",
+  "description": "A X-Tag element for URL routing",
+  "author": "Gianni Furger",
+  "license": "MIT",
+  "main": [
+    "src/route.js"
   ],
-  "description": "A Polymer element for URL routing",
-  "main": "src/x-route.html",
   "keywords": [
     "web-component",
     "web-components",
     "router",
     "routing"
   ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "platform": "Polymer/platform#~0.2.0",
-    "polymer": "Polymer/polymer#~0.2.0"
+    "x-tag-core": "0.9.4",
+    "brick-common": "0.1.2"
   }
 }

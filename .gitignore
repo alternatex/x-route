@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 node_modules
 .DS_Store
+=======
+app/bower_components
+node_modules
+>>>>>>> feature/x-tag

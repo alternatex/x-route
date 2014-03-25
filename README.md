@@ -1,42 +1,50 @@
 # &lt;x-route&gt;
 
-A [Polymer](http://www.polymer-project.org) element for URL routing.
+A [X-Tag](http://www.x-tags.org) element for URL routing.
 
-> Maintained by [Addy Osmani](https://github.com/addyosmani).
+> Maintained by [Gianni Furger](https://github.com/alternatex).
 
-Based on `<flatiron-director>` by the Polymer team. 
+Port of Polymer `<x-route>` by Addy Osmani; based on `<flatiron-director>` by the Polymer team. 
+
+Sole purpose: support x-route elements on Android <=4.3 - Polymer + Android 4.3 - nah.
 
 ## Demo
 
-> [Check it live](http://addyosmani.github.io/x-route).
+> [Check it live](http://alternatex.github.io/x-route).
 
 ## Install
 
 Install with [Bower](http://bower.io):
 
 ```sh
-$ bower install --save x-route
+$ bower install --save x-tag-route
 ```
 
 ## Usage
 
-1. Import Web Components' polyfill:
+1.  Import Web Components' polyfill:
 
-```html
-<script src="platform.js"></script>
-```
+    ```html
+    <script src="dist/x-tags-components.js"></script>
+    ```
 
-2. Import Custom Element:
+2.  Import `<flatiron-director>`:
 
-```html
-<link rel="import" href="src/x-route.html">
-```
+    ```html
+    <script src="dist/director.min.js"></script>
+    ```
 
-3. Start using it!
+3.  Import Custom Element:
 
-```html
-<x-route></x-route>
-```
+    ```html
+    <script src="dist/route.js"></script>
+    ```
+
+4.  Start using it!
+
+    ```html
+    <x-route></x-route>
+    ```
 
 ## Examples
 
@@ -74,14 +82,14 @@ In order to run it locally you'll need a basic server setup.
     ```sh
     $ npm install --global grunt-cli
     ```
-
-3. Install local dependencies:
+3. Install [Bower](http://bower.io/)
+4. Install local dependencies:
 
     ```sh
-    $ npm install
+    $ npm install && bower install
     ```
 
-4. Run a local server and open `http://localhost:8000`.
+5. Run a local server and open `http://localhost:3001`.
 
     ```sh
     $ grunt connect
@@ -89,11 +97,11 @@ In order to run it locally you'll need a basic server setup.
 
 ## Options
 
-Attribute  | Options                   | Default             | Description
----        | ---                       | ---                 | ---
-`path`      | *string*                  | ``               | A routing path
-`route`      | *string*                  | ``               | The current route
-`auto`      | *boolean*                  | `false`               | Automatically navigate to a defined route
+Attribute  | Options                   | Default              | Description
+---        | ---                       | ---                  | ---
+`path`     | *string*                  | ``                   | A routing path
+`route`    | *string*                  | ``                   | The current route
+`auto`     | *boolean*                 | `false`              | Automatically navigate to a defined route
 
 ## Contributing
 
@@ -110,3 +118,4 @@ For detailed changelog, check [Releases](https://github.com/webcomponents/elemen
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
+
