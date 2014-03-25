@@ -24,9 +24,9 @@ $ bower install --save x-tag-route
 
 1.  Import Web Components' polyfill:
 
-      ```html
-      <script src="dist/x-tags-components.js"></script>
-      ```
+    ```html
+    <script src="dist/x-tags-components.js"></script>
+    ```
 
 2.  Import `<flatiron-director>`:
 
