@@ -66,20 +66,20 @@
       }
     },
     lifecycle: {
-      created: function (){
+      inserted: function (){
         // If initializing with a route to auto-navigate to
         // ensure a change event is fired.
         if(this.route!=='' && this.route!==null){
           this.fireChange();
+        }
 
         // Otherwise, setup listeners for this.path
         // and fire a change event when complete
-        } else {
-          this.router.on(this.path, function (route) {            
-            this.route = route;
-            this.fireChange();
-          }.bind(this));
-        }
+        this.router.on(this.path, function (route) {            
+          this.route = route;
+          this.fireChange();
+        }.bind(this));
+        
       }
     },
     methods: {
