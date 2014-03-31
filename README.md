@@ -6,7 +6,7 @@ A [X-Tag](http://www.x-tags.org) element for URL routing.
 
 Port of Polymer `<x-route>` by Addy Osmani; based on `<flatiron-director>` by the Polymer team. 
 
-Sole purpose: support x-route elements on Android <=4.3 - Polymer + Android 4.3 - nah.
+Support x-route elements on **Android 4.3** - Polymer seems rather incompatible with Android versions prior 4.4/KitKat.
 
 ## Demo
 
