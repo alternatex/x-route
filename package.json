@@ -15,7 +15,7 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "bower": "~0.7.0",
+    "bower": "~1.0.0",
     "grunt": "~0.4.0",
     "grunt-smush-components": "~0.1.1",
     "grunt-contrib-concat": "~0.1.2",
